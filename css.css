@@ -1,0 +1,164 @@
+body
+{
+    width:100%;
+    height:100%;
+    margin-left:0;
+    margin-top:0;
+    background-color:gray;
+    margin:0 auto;
+    background: no-repeat center center fixed; 
+    text-shadow: 0 0 1px rgba(0,0,0,0.2);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor:default;
+}
+header
+{
+    position:absolute;
+    background:rgba(255,255,255,0.8);
+    width:100%;
+    height:72px;
+}
+nav
+{
+    float:right;
+    margin-top:-75px;
+    margin-right:350px;
+    font-size:14px;
+    font-family: Helvetica, Arial, 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
+nav a
+{
+    color:#333333;
+}
+nav a:hover
+{
+    text-decoration:none;
+    cursor:pointer;
+}
+article
+{
+    position:absolute;
+    width:100%;
+}
+footer
+{
+    position:absolute;
+    bottom:0;
+    background:rgba(0,0,0,0.4);
+    width:100%;
+    height:50px;
+    color:white;
+}
+a
+{
+    text-decoration:none;
+    color:#FF3366;
+    outline: 0;
+}
+a:hover
+{
+    text-decoration:underline;
+    color:#3366FF;
+}
+div#logotype
+{
+    width:90px;
+    height:96px;
+    margin-left:200px;
+    background:url('logotype.png');
+}
+div#txtlogo
+{
+    position:absolute;
+    margin-top:-80px;
+    margin-left:320px;
+    font-size:28px;
+    color:#252525;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+div#footerlinks
+{
+    font-size:15px;
+    margin-top:15px;
+    margin-left:200px;
+}
+div#footerlinks a
+{
+    color:white;
+}
+div#footerlinks a:hover
+{
+    text-decoration:none;
+    color:gray;
+}
+div#adv
+{
+    float:right;
+    font-size:13px;
+    font-weight:bold;
+    margin-top:-15px;
+    margin-right:150px;
+}
+div#showinfo
+{
+    position:absolute;
+    background:rgba(0,0,0,0.6);
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height:445px;
+    width:750px;
+    margin-top:100px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:10px;
+    right:0;
+    display:none;
+    color:white;
+    text-align:center;
+    overflow-y: auto;
+}
+div#slogan
+{
+    position:absolute;
+    left:0;
+    margin-top:240px;
+    margin-left:300px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    text-shadow: 15px 15px 15px rgba(0,0,0,1.0);
+
+}
+span#free
+{
+    text-shadow: 5px 5px 5px rgba(0,0,0,1.0);
+    font-size:140%;
+}
+span.separator
+{
+    padding-left:15px;
+    padding-right:15px;
+}
+/* Let's get this party started */
+div#showinfo::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+div#showinfo::-webkit-scrollbar-track {
+    background: rgba(200, 200, 200, 0.2);
+}
+ 
+/* Handle */
+div#showinfo::-webkit-scrollbar-thumb {
+    background: rgba(10,10,10,0.7); 
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
